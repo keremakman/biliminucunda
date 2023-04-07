@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>Bilimin Ucunda</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image: url('resim/header.jpg')  ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-size: 100% 100%;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+
+}
+
+/* Style the footer */
+footer {
+    background-color:darkgreen;  
+    padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Bilimin Ucunda</h1>
+  <h6>BİLİM, TEKNOLOJİ, EĞİTİM VS.</h>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html"><button class="button button">Anasayfa</button></button></li>
+      <li><a href="hakkinda.html"><button class="button button">Hakkında</button></button></li>
+      <li><a href="iletisim.html"><button class="button button">İletişim</button></button></li>
+      <li><a href="feedback.html"><button class="button button">feedback</button></button></li>
+    </ul>
+  </nav>
+  
+  <article>
+
+    <h1>Anasayfa</h1>
+    <img src="resim/kuslar.jpg" alt="resme alternatif yazı"width="300" height="300"> 
+    <p> <a href="#">Göçmen kuşlar kaybolmadan binlerce kilometre yolu nasıl kateder?</a> </p>
+    <br>
+    <br>
+    <img src="resim/line.png" alt="resme alternatif yazı"width="300"   > 
+    <br>
+    <br>
+
+    <img src="resim/igne.jpg" alt="resme alternatif yazı"width="300" height="300"> 
+    <p> <a href="#">Neden Bütün İğneler Kola Yapılmaz?</a> </p>
+    <br>
+    <br>
+    <img src="resim/line.png" alt="resme alternatif yazı"width="300"   > 
+    <br>
+    <br>
+    
+    <img src="resim/yasli.jpg" alt="resme alternatif yazı"width="300" height="300"> 
+    <p> <a href="#">Neden Yaşlılar Bazı Uzak Anılarını Dün Gibi Hatırlar?</a> </p>
+    <img src="resim/line.png" alt="resme alternatif yazı"width="300"   > 
+    <br>
+    <br>
+    
+    <p>Yeni Makaleler eklenmeye devam ediyor...</p>
+  </article>
+</section>
+
+<footer>
+  <p>Copyright 2023 - Designed by Kerem Akman Company Co. Ltd.</p>
+</footer>
+
+</body>
+</html>
+
