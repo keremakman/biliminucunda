@@ -9,7 +9,5 @@ iki adet yaptım
 2.si css dahil edilerek yapıldı.
 
 
-NOT:ilk gün yapanlar 50 puan alacaktı deprem bölgesinde olduğumdan dolayıgeçikmeler yaşadım. 
-umarım hakettiğim puanı alırım teşekürler... :)
 
 Website: http://bilimucunda.rf.gd
